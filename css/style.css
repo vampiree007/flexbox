@@ -133,3 +133,39 @@ img{
 }
 
 
+.main_2{
+    width: 84%;
+    display: flex;
+    margin: 10px auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.main_2 .child{
+    height: 100px;
+    width: 48%;
+    margin-bottom: 15px;
+}
+.main_2 .child:first-child{
+    background-color: lightblue;
+}
+.main_2 .child:nth-child(2){
+    background-color: lightgoldenrodyellow;
+}
+.main_2 .child:nth-child(3){
+    background-color: lightgreen;
+}
+.main_2 .child:nth-child(4){
+    background-color: lightgoldenrodyellow;
+}
+.main_2 .child:nth-child(5){
+    background-color: lightgreen;
+}
+.main_2 .child:nth-child(6){
+    background-color: lightgoldenrodyellow;
+}
+.main_2 .child:nth-child(7){
+    background-color: lightgreen;
+}
+.main_2 .child:last-child{
+    background-color: lightcoral;
+}
