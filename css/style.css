@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+input{
+    border: none;
+}
+input:focus{
+    outline: none;
+}
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.navbar{
+    height: 60px;
+    background-color: #2A2A2A;
+    display: flex;
+}
+.navbar .child{
+    height: 100%;
+    color: #fff;
+}
+.navbar .child:first-child{
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar .child:nth-child(2){
+    width: 60%;
+}
+.navbar .child:last-child{
+    width: 30%;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    height: 100%;
+}
+.navbar ul li{
+    width: 100px;
+    text-align: center;
+    border-right: 1px solid black;
+    height: 100%;
+    line-height: 60px;
+    color: #fff;
+    cursor: pointer;
+    transition: all;
+    transition-duration: .2s;
+}
+.navbar ul li:hover{
+    background-color: teal;
+    font-size: 18px;
+}
+
+.navbar .child:last-child input{
+    margin-top: 10px;
+    padding: 10px 10px 10px 10px;
+}
+.navbar .child:first-child img{
+    width: 46px;
+}
+
+
+
+
+
+.main{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 10px;
+}
+.main .main_body{
+    width: 82%;
+    margin: auto;
+}
+.main .sidebar{
+    width: 25%;
+    height: 80vh;
+    background-color: green;
+}
+.banner{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.banner .child{
+    height: 400px;
+    overflow: hidden;
+}
+.banner .child:first-child{
+    width: 55%;
+    background-color: orange;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.banner .child:first-child img{
+    height: 400px;
+    transition: all;
+    transition-duration: .3s;
+}
+.banner .child:first-child img:hover{
+    transform: scale(1.2);
+}
+.banner .child:last-child{
+    width: 43%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.banner .child:last-child .children{
+    height: 48%;
+    display: flex;
+    background-color: green;
+    justify-content: space-between;
+    border-radius: 3px;
+}
+.banner .child:last-child .children:last-child{
+    background-color: transparent;
+}
+
+.banner .child:last-child .children .sub_children{
+    width: 48%;
+    height: 100%;
+    background-color: teal;
+    border-radius: 3px;
+}
+
+
